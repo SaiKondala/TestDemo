@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+	
+<listeners>
+	<listener class-name="central.Utilities.ExtentListener"/>
+</listeners>
+  <test  name="Test">
+  	<parameter name="browser" value="chrome"/>
+    <classes>
+    
+	 <!--	<class name="central.TestCases.TC02_SCCreateExtuser"/> --> 
+		<class name="central.TestCases.TC01_SCExtLogin"/>
+	 
+     
+    </classes>
+  </test> <!-- Test -->  
+  	  
+</suite> <!-- Suite -->
