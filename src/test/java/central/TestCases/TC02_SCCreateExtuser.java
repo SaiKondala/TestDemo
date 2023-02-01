@@ -13,6 +13,7 @@ public class TC02_SCCreateExtuser extends TC01_SCExtLogin
 		
 		SCCreateExtuser sccreate = new SCCreateExtuser(driver);
 		sccreate.createuser();
+		System.out.println("user is created");
 //		ExtentTest test = extent.createTest("Create ExtUser");
 //		try
 //		{
