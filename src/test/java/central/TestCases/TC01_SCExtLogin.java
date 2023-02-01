@@ -13,6 +13,7 @@ public class TC01_SCExtLogin extends CommonClass{
 //		ExtentTest test = extent.createTest("Ext Login");
 		SCExtLogin sclogin = new SCExtLogin(driver);
 		sclogin.login();
+		System.out.println("I am logged in");
 		
 		
 //		if(driver.getTitle().equals("Sage :: Dashboard"))
